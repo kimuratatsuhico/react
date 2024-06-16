@@ -85,7 +85,6 @@ function ProductTable({ products, filterText, inStockOnly }) {
     </table>
   );
 }
-
 function SearchBar({
   filterText,
   inStockOnly,
@@ -109,7 +108,6 @@ function SearchBar({
     </form>
   );
 }
-
 const PRODUCTS = [
   { category: "Fruits", price: "$1", stocked: true, name: "Apple" },
   { category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit" },
