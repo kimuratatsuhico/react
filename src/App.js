@@ -118,7 +118,6 @@ const PRODUCTS = [
   { category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin" },
   { category: "Vegetables", price: "$1", stocked: true, name: "Peas" }
 ];
-
 export default function App() {
   return <FilterableProductTable products={PRODUCTS} />;
 }
